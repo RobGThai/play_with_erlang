@@ -1,0 +1,4 @@
+-record(people, {
+	name = "",
+	age
+	}).

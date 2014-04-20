@@ -1,0 +1,12 @@
+{application, list_app,
+ [
+  {description, "List server"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { list_app_app, []}},
+  {env, []}
+ ]}.
